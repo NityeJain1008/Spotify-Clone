@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="flex">
+        <div class="left1">
+            <img src="Images/logo.svg" alt="logo">
+            <img width="32" src="Images/home.svg" alt="home">
+            <div class="search-bar">
+
+                <img width="32" src="Images/search.svg" alt="search">
+                <input type="text" placeholder="What do you want to play?">
+                <div class="divider"></div>
+                <img width="32" src="Images/browse.svg" alt="browse">
+
+            </div>
+        </div>
+
+        <div class="right1">
+            <button class="btn2">Premium</button>
+            <button class="btn2">Support</button>
+            <button class="btn2">Download</button>
+            <div class="divider"></div>
+            <img width="32" src="Images/download.svg" alt="download">
+            <button class="btn2">Install App</button>
+            <button class="btn2">Sign up</button>
+            <input class="btn1" type="button" value="Log in">
+        </div>
+    </nav>
+
+    <div class="container flex">
+        <div class="left bg-grey rounded m-1">
+            <div class="library">
+                <div class="heading flex justify-gap">
+                    <h2>Your Playlist</h2>
+                    <img width="30" src="Images/plus.svg" alt="">
+                </div>
+
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div><a href="https://www.spotify.com/in-en/legal/">Legal</a></div>
+                <div><a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety &amp; Privacy Center</a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></div>
+                <div><a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a></div>
+            </div>
+
+        </div>
+
+        <div class="right bg-grey m-1">
+            <div class="header grey-outer">
+                <div class="nav">
+                    <img src="Images/left_arr.svg" alt="left_arrow">
+                    <img src="Images/right_arr.svg" alt="right_arrow">
+                </div>
+            </div>
+
+            <div class="spotifyPlaylists">
+
+                <h1>Spotify Playlists</h1>
+
+                <div class="cardContainer">
+                    <!-- <div data-folder="cs" class="card">
+                        <div class="play">
+                            <img src="Images/play.svg" alt="play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e029aa819fdf84c78fc1976391d" alt="">
+                        <h2>KALYANI (with Shreya Ghoshal) - Remix</h2>
+                        <p>ARJN, KDS, FIFTY4, Shreya Ghoshal</p>
+                    </div> -->
+
+                </div>
+
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="bar1">
+                        <div class="songinfo"></div>
+
+                        <div class="songbuttons">
+                            <img id="prev" src="Images/prevsong.svg" alt="">
+                            <img id="play" width="50" src="Images/play.svg" alt="">
+                            <img id="next" src="Images/nextsong.svg" alt="">
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime"></div>
+                            <div class="volume">
+                                <img id="vol" width="32px" src="Images/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

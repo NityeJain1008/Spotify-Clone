@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.border{
+    border: 2px solid red ; 
+    margin: 3px ; 
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-gap{
+    justify-content: space-between;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+    color: white;
+}
+
+.grey-outer{
+    background-color: #242424 ; 
+    color: white;
+}
+
+.rounded{
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #666; /* Always visible */
+    border-radius: 10px;
+    border: 2px solid #111;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+/* Firefox */
+html {
+    scrollbar-width: auto;
+    scrollbar-color: #666 #111;
+}
